@@ -1,0 +1,210 @@
+<!-- Use the HTML <table> element to define a table
+Use the HTML <tr> element to define a table row
+Use the HTML <td> element to define a table data
+Use the HTML <th> element to define a table heading
+Use the HTML <caption> element to define a table caption
+Use the CSS border property to define a border
+Use the CSS border-collapse property to collapse cell borders
+Use the CSS padding property to add padding to cells
+Use the CSS text-align property to align cell text
+Use the CSS border-spacing property to set the spacing between cells
+Use the colspan attribute to make a cell span many columns
+Use the rowspan attribute to make a cell span many rows
+Use the id attribute to uniquely define one table -->
+
+<!-- Basic HTML TABLE -->
+
+<!-- <html>
+    <body>
+        <h2>Simple table</h2>
+        <table style="width:100% ">
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Age</th>
+            </tr>
+
+            <tr>
+                <td>Dean</td>
+                <td>Botha</td>
+                <td>27</td>
+            </tr>
+
+            <tr>
+                <td>Monique</td>
+                <td>Botha</td>
+                <td>24</td>
+    
+            </tr>
+
+        </table>
+    </body>
+</html> -->
+
+<!-- Basic HTML table with Borders -->
+
+<html>
+    <head>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                text-align: left;   
+                padding: 10px     
+            }
+            table {
+                border-spacing: 100px
+            }
+
+            table#t02 {
+                width: auto;
+                background-color: rgb(224, 26, 26)
+            }
+
+            table#t03 tr:nth-child(even) {
+                background-color: rgb(221, 79, 54)
+            }
+
+              table#t03 tr:nth-child(odd) {
+                background-color: rgb(0, 162, 255)
+            }
+            table#t03 th {
+                background-color: rgb(70, 155, 113);
+                color: white
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Table with Borders</h2>
+        <table style="width: 100%">
+            <caption ><h2>Table Training</h2> </caption>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Age</th>
+                <th>Number</th>
+            </tr>
+            <tr>
+                <td>Dean</td>
+                <td>Botha</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>Monique</td>
+                <td>Botha</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td colspan="3" >Combined Rox</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Number</td>
+                <td rowspan="2">Number</td>
+                <td rowspan="2">Number</td>
+                <td>0821231324</td>
+            </tr>
+            <tr>
+               
+                <td>08254545454</td>
+            </tr>
+
+        </table>
+        <br>
+        <table id="t02">
+                <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th> 
+                        <th>Age</th>
+                      </tr>
+                      <tr>
+                        <td>Jill</td>
+                        <td>Smith</td>
+                        <td>50</td>
+                      </tr>
+                      <tr>
+                        <td>Eve</td>
+                        <td>Jackson</td>
+                        <td>94</td>
+                      </tr>
+
+        </table>
+        <br>
+        <table id="t03">
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Dean</td>
+                <td>Botha</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                    <td>Dean</td>
+                    <td>Botha</td>
+                    <td>26</td>
+            </tr>
+            <tr>
+                    <td>Dean</td>
+                    <td>Botha</td>
+                    <td>26</td>
+            </tr>
+
+
+        </table>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <br>
+<html>
+    <head>
+        <style>
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse ;
+            width: auto;
+                }
+
+                td, th {
+                    border: 1px solid #dddddd;
+                    text-align: left ;
+                    padding: 10px;
+                }
+                tr:nth-child(even) {
+                    background-color : #dddddd;
+                }
+        </style>
+    </head>
+    <body>
+        <h2>PMAST</h2>
+        <Table>
+            <tr>
+                <th>Policy Number</th>
+                <th>Status</th>
+                <th>Name</th>
+            </tr>
+            <tr>
+                <td>854125689</td>
+                <td>Active</td>
+                <td>Dean</td>
+            </tr>
+        </Table>
+            
+    </body>
+    
+</html> -->
